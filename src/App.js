@@ -1,9 +1,11 @@
-import 'fontsource-roboto';
-import './App.css';
+import React from "react";
+import { RouterConfig } from "./navigation/RouterConfig.jsx";
 
 function App() {
   return (
-    <div/>
+    <div className="App m-4 mb-16">
+      <RouterConfig/>
+    </div>
   );
 }
 
